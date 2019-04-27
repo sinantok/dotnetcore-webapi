@@ -1,0 +1,14 @@
+C:\Users\Sinan Tok\source\VsCode-Core\CoreWebApi\bin\Debug\netcoreapp2.2\CoreWebApi.deps.json
+C:\Users\Sinan Tok\source\VsCode-Core\CoreWebApi\bin\Debug\netcoreapp2.2\CoreWebApi.runtimeconfig.json
+C:\Users\Sinan Tok\source\VsCode-Core\CoreWebApi\bin\Debug\netcoreapp2.2\CoreWebApi.runtimeconfig.dev.json
+C:\Users\Sinan Tok\source\VsCode-Core\CoreWebApi\bin\Debug\netcoreapp2.2\CoreWebApi.dll
+C:\Users\Sinan Tok\source\VsCode-Core\CoreWebApi\bin\Debug\netcoreapp2.2\CoreWebApi.pdb
+C:\Users\Sinan Tok\source\VsCode-Core\CoreWebApi\obj\Debug\netcoreapp2.2\CoreWebApi.csprojAssemblyReference.cache
+C:\Users\Sinan Tok\source\VsCode-Core\CoreWebApi\obj\Debug\netcoreapp2.2\CoreWebApi.csproj.CoreCompileInputs.cache
+C:\Users\Sinan Tok\source\VsCode-Core\CoreWebApi\obj\Debug\netcoreapp2.2\CoreWebApi.RazorAssemblyInfo.cache
+C:\Users\Sinan Tok\source\VsCode-Core\CoreWebApi\obj\Debug\netcoreapp2.2\CoreWebApi.RazorAssemblyInfo.cs
+C:\Users\Sinan Tok\source\VsCode-Core\CoreWebApi\obj\Debug\netcoreapp2.2\CoreWebApi.AssemblyInfoInputs.cache
+C:\Users\Sinan Tok\source\VsCode-Core\CoreWebApi\obj\Debug\netcoreapp2.2\CoreWebApi.AssemblyInfo.cs
+C:\Users\Sinan Tok\source\VsCode-Core\CoreWebApi\obj\Debug\netcoreapp2.2\CoreWebApi.RazorTargetAssemblyInfo.cache
+C:\Users\Sinan Tok\source\VsCode-Core\CoreWebApi\obj\Debug\netcoreapp2.2\CoreWebApi.dll
+C:\Users\Sinan Tok\source\VsCode-Core\CoreWebApi\obj\Debug\netcoreapp2.2\CoreWebApi.pdb
