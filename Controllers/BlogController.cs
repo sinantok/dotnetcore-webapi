@@ -11,7 +11,7 @@ namespace CoreWebApi.Controllers
     [ApiController]
     public class BlogController : ControllerBase  
     {
-         // GET api/values
+        // GET api/values
         [HttpGet]
         public IEnumerable<Blog> Get()
         {

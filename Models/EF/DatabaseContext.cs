@@ -6,6 +6,7 @@ namespace CoreWebApi.Models.EF{
     {
         public DatabaseContext(){
         }
+
         public DbSet<Blog> Blogs {get; set;}
         public DbSet<Category> Categories { get; set; } 
 

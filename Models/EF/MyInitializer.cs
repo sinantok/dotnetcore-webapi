@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Linq;
+using Microsoft.AspNetCore.Builder;
 
 namespace CoreWebApi.Models.EF 
 {    
