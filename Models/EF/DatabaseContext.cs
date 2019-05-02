@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 
 namespace CoreWebApi.Models.EF{
+    
     public class DatabaseContext : DbContext
     {
         public DatabaseContext(){
