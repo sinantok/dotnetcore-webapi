@@ -11,12 +11,12 @@ using Microsoft.EntityFrameworkCore;
 
 namespace CoreWebApi.Controllers
 {   
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]//routePrefix
     [ApiController]
     public class CategoryController : ControllerBase
     {
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Category>>> Get()
+        public async Task<ActionResult<IEnumerable<Category>>> GetAll()
         {
             using (var db = new DatabaseContext())
             { 
@@ -26,7 +26,8 @@ namespace CoreWebApi.Controllers
         }
         
         [HttpGet("{id}")]
-        public async Task<ActionResult<Category>> Get(int id)
+        //[Route("Get/{id}")] attribute based routing
+        public async Task<ActionResult<Category>> GetById(int id)
         {
             using (var db = new DatabaseContext()){
                 var temp = await db.Categories.FirstOrDefaultAsync(x => x.CategoryId == id);
@@ -35,17 +36,17 @@ namespace CoreWebApi.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<Category>> Post([FromBody] Category cat)
+        public async Task<ActionResult<Category>> InsertPost([FromBody] Category cat)
         {
              using (var db = new DatabaseContext()){
                 db.Categories.Add(cat);
                 await db.SaveChangesAsync();
-                return CreatedAtAction(nameof(Get), new { id = cat.CategoryId }, cat);
+                return CreatedAtAction(nameof(GetById), new { id = cat.CategoryId }, cat);
             }
         }
 
         [HttpPut("{id}")]
-        public async Task<ActionResult<Category>> Put(int id, [FromBody] Category cat)
+        public async Task<ActionResult<Category>> UpdatePut(int id, [FromBody] Category cat)
         {
             if (id != cat.CategoryId)
             {
@@ -58,12 +59,12 @@ namespace CoreWebApi.Controllers
 
                 //return NoContent();
                 
-                return CreatedAtAction(nameof(Get), new { id = cat.CategoryId }, cat);
+                return CreatedAtAction(nameof(GetById), new { id = cat.CategoryId }, cat);
             }
         }
 
         [HttpDelete("{id}")]
-        public async Task<IActionResult> Delete(int id)
+        public async Task<IActionResult> DeleteCategory(int id)
         {
             using(var db = new DatabaseContext())
             {
