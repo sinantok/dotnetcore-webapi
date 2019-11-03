@@ -1,34 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sinan Tok\\source\\VsCode-Core\\CoreWebApi\\CoreWebApi.csproj": {}
+    "C:\\Users\\sinan.tok\\Desktop\\dotnetcore-webapi\\CoreWebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sinan Tok\\source\\VsCode-Core\\CoreWebApi\\CoreWebApi.csproj": {
+    "C:\\Users\\sinan.tok\\Desktop\\dotnetcore-webapi\\CoreWebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sinan Tok\\source\\VsCode-Core\\CoreWebApi\\CoreWebApi.csproj",
+        "projectUniqueName": "C:\\Users\\sinan.tok\\Desktop\\dotnetcore-webapi\\CoreWebApi.csproj",
         "projectName": "CoreWebApi",
-        "projectPath": "C:\\Users\\Sinan Tok\\source\\VsCode-Core\\CoreWebApi\\CoreWebApi.csproj",
-        "packagesPath": "C:\\Users\\Sinan Tok\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sinan Tok\\source\\VsCode-Core\\CoreWebApi\\obj\\",
+        "projectPath": "C:\\Users\\sinan.tok\\Desktop\\dotnetcore-webapi\\CoreWebApi.csproj",
+        "packagesPath": "C:\\Users\\sinan.tok\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sinan.tok\\Desktop\\dotnetcore-webapi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Sinan Tok\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sinan.tok\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp2.2"
+          "netcoreapp3.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.hurriyet.com.tr/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp2.2": {
+          "netcoreapp3.0": {
             "projectReferences": {}
           }
         },
@@ -39,41 +40,42 @@
         }
       },
       "frameworks": {
-        "netcoreapp2.2": {
+        "netcoreapp3.0": {
           "dependencies": {
-            "Microsoft.AspNetCore.App": {
-              "suppressParent": "All",
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[2.2.0, )",
-              "autoReferenced": true
-            },
-            "Microsoft.AspNetCore.Razor.Design": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.2.0, )"
+              "version": "[3.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[2.2.4, )"
+              "version": "[3.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.2.4, )"
-            },
-            "Microsoft.NETCore.App": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.2.0, )",
-              "autoReferenced": true
+              "version": "[3.0.0, )"
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,13 +1,9 @@
-using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using CoreWebApi.Models.EF;
-using System.Net;
-using System.Net.Http;
-using System.Web.Http;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Http;
 
 namespace CoreWebApi.Controllers
 {   
@@ -36,6 +32,8 @@ namespace CoreWebApi.Controllers
         }
 
         [HttpPost]
+        [ProducesResponseType(StatusCodes.Status201Created)]
+        [ProducesDefaultResponseType]
         public async Task<ActionResult<Category>> InsertPost([FromBody] Category cat)
         {
              using (var db = new DatabaseContext()){
