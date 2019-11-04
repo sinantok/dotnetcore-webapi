@@ -1,5 +1,4 @@
 C:\Users\sinan.tok\Desktop\dotnetcore-webapi\obj\Debug\netcoreapp3.0\CoreWebApi.csprojAssemblyReference.cache
-C:\Users\sinan.tok\Desktop\dotnetcore-webapi\obj\Debug\netcoreapp3.0\CoreWebApi.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\sinan.tok\Desktop\dotnetcore-webapi\obj\Debug\netcoreapp3.0\CoreWebApi.AssemblyInfoInputs.cache
 C:\Users\sinan.tok\Desktop\dotnetcore-webapi\obj\Debug\netcoreapp3.0\CoreWebApi.AssemblyInfo.cs
 C:\Users\sinan.tok\Desktop\dotnetcore-webapi\bin\Debug\netcoreapp3.0\appsettings.Development.json
@@ -36,3 +35,5 @@ C:\Users\sinan.tok\Desktop\dotnetcore-webapi\obj\Debug\netcoreapp3.0\CoreWebApi.
 C:\Users\sinan.tok\Desktop\dotnetcore-webapi\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
 C:\Users\sinan.tok\Desktop\dotnetcore-webapi\obj\Debug\netcoreapp3.0\staticwebassets\CoreWebApi.StaticWebAssets.Manifest.cache
 C:\Users\sinan.tok\Desktop\dotnetcore-webapi\obj\Debug\netcoreapp3.0\staticwebassets\CoreWebApi.StaticWebAssets.xml
+C:\Users\sinan.tok\Desktop\dotnetcore-webapi\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\sinan.tok\Desktop\dotnetcore-webapi\obj\Debug\netcoreapp3.0\CoreWebApi.MvcApplicationPartsAssemblyInfo.cache
