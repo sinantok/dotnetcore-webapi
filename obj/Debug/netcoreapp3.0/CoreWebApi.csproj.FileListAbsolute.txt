@@ -109,4 +109,5 @@ C:\Users\sinan.tok\Desktop\dotnetcore-webapi\bin\Debug\netcoreapp3.0\ru\Microsof
 C:\Users\sinan.tok\Desktop\dotnetcore-webapi\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\sinan.tok\Desktop\dotnetcore-webapi\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\sinan.tok\Desktop\dotnetcore-webapi\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\sinan.tok\Desktop\dotnetcore-webapi\obj\Debug\netcoreapp3.0\CoreWebApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\sinan.tok\Desktop\dotnetcore-webapi\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\sinan.tok\Desktop\dotnetcore-webapi\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Tokens.dll
