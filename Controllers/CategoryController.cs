@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using CoreWebApi.Models.EF;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Authorization;
 
 namespace CoreWebApi.Controllers
 {   
@@ -20,7 +21,8 @@ namespace CoreWebApi.Controllers
                 return temp;
             }
         }
-        
+
+        [Authorize(Roles = "Admin")]
         [HttpGet("{id}")]
         //[Route("Get/{id}")] attribute based routing
         public async Task<ActionResult<Category>> GetById(int id)
@@ -31,6 +33,7 @@ namespace CoreWebApi.Controllers
             }
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesDefaultResponseType]
@@ -43,6 +46,7 @@ namespace CoreWebApi.Controllers
             }
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpPut("{id}")]
         public async Task<ActionResult<Category>> UpdatePut(int id, [FromBody] Category cat)
         {
@@ -61,6 +65,7 @@ namespace CoreWebApi.Controllers
             }
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteCategory(int id)
         {

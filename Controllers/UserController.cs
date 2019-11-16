@@ -38,7 +38,7 @@ namespace CoreWebApi.Controllers
             {
                 return BadRequest(new { message = "username already registered." });
             }
-            model.Role = "Admin";
+            model.Role = "Admin";//SuperAdmin,Customer
             var applicationUser = new ApplicationUser()
             {
                 UserName = model.UserName,

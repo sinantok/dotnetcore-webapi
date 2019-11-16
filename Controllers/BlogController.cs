@@ -4,9 +4,11 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using CoreWebApi.Models.EF;
+using Microsoft.AspNetCore.Authorization;
 
 namespace CoreWebApi.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class BlogController : ControllerBase  
