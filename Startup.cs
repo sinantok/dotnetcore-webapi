@@ -12,6 +12,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using CoreWebApi.Models.EF;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Options;
 using CoreWebApi.Models.Identification;
 
 namespace CoreWebApi
@@ -29,6 +30,8 @@ namespace CoreWebApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.Configure<ApplicationSettings>(Configuration.GetSection("ApplicationSettings"));
+
+            services.AddDbContext<AuthenticationContext>(options)
 
             services.AddControllers();
             services.AddCors();

@@ -111,3 +111,5 @@ C:\Users\sinan.tok\Desktop\dotnetcore-webapi\bin\Debug\netcoreapp3.0\zh-Hans\Mic
 C:\Users\sinan.tok\Desktop\dotnetcore-webapi\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\sinan.tok\Desktop\dotnetcore-webapi\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Logging.dll
 C:\Users\sinan.tok\Desktop\dotnetcore-webapi\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\sinan.tok\Desktop\dotnetcore-webapi\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\sinan.tok\Desktop\dotnetcore-webapi\bin\Debug\netcoreapp3.0\System.IdentityModel.Tokens.Jwt.dll
