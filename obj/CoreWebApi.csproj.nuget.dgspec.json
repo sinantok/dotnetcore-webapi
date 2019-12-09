@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sinan.tok\\Desktop\\dotnetcore-webapi\\CoreWebApi.csproj": {}
+    "D:\\Projects\\Github\\Core\\dotnetcore-webapi\\CoreWebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sinan.tok\\Desktop\\dotnetcore-webapi\\CoreWebApi.csproj": {
+    "D:\\Projects\\Github\\Core\\dotnetcore-webapi\\CoreWebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sinan.tok\\Desktop\\dotnetcore-webapi\\CoreWebApi.csproj",
+        "projectUniqueName": "D:\\Projects\\Github\\Core\\dotnetcore-webapi\\CoreWebApi.csproj",
         "projectName": "CoreWebApi",
-        "projectPath": "C:\\Users\\sinan.tok\\Desktop\\dotnetcore-webapi\\CoreWebApi.csproj",
-        "packagesPath": "C:\\Users\\sinan.tok\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sinan.tok\\Desktop\\dotnetcore-webapi\\obj\\",
+        "projectPath": "D:\\Projects\\Github\\Core\\dotnetcore-webapi\\CoreWebApi.csproj",
+        "packagesPath": "C:\\Users\\Sinan TOK\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Github\\Core\\dotnetcore-webapi\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\sinan.tok\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Sinan TOK\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://nuget.hurriyet.com.tr/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -68,10 +64,6 @@
               "target": "Package",
               "version": "[3.0.0, )"
             },
-            "Microsoft.Extensions.Options": {
-              "target": "Package",
-              "version": "[3.0.0, )"
-            },
             "Microsoft.IdentityModel.Tokens": {
               "target": "Package",
               "version": "[5.6.0, )"
@@ -103,7 +95,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
