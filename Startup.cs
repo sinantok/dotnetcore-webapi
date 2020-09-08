@@ -43,7 +43,7 @@ namespace CoreWebApi
                .AddEntityFrameworkStores<AuthenticationContext>();
 
             services.Configure<IdentityOptions>(options =>
-            {
+            {   
                 options.Password.RequireDigit = false;
                 options.Password.RequireNonAlphanumeric = false;
                 options.Password.RequireLowercase = false;
@@ -97,7 +97,7 @@ namespace CoreWebApi
                 .AllowAnyHeader());
 
             app.UseHttpsRedirection();
-
+            app.UseAuthentication();
             app.UseAuthorization();
             app.UseRouting();
             app.UseEndpoints(endpoints =>
